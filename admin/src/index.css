@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  /* border: border-box; */
+}
+
+/* Navbar CSS */
+
+.navbar {
+  height: 80px;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  border-bottom: 2px solid #ededed;
+}
+
+.navbar.scrolled {
+  background-color: #17bb61;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 90%;
+  color: #0e6f3a;
+  font-size: 30px;
+}
+
+.logo h2 {
+  font-size: 30px;
+}
+
+.logo i {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  font-size: 30px;
+}
+
+.detail i {
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.detail :hover {
+  color: #0e6f3a;
+  cursor: pointer;
+}
+
+/* Left-Main CSS */
+
+.main {
+  background-color: #fafafa;
+  text-decoration: none;
+
+}
+
+.left {
+  width: 15%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: black;
+  position: sticky;
+  border-right: 2px solid #ededed;
+}
+
+.home h3 {
+  color: #17bb61;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #a0a5a7;
+}
+
+.dashboard p {
+  padding-right: 10px;
+  color: black;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.log h3 {
+  color: #17bb61;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.log p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  margin-left: 10px;
+  color: black;
+}
+
+.submenu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+}
+
+.right {
+  width: 60%;
+}
+
+/* Food Category */
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: #fff; /* White background */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px; /* Increased top margin for separation */
+  box-sizing: border-box;
+  background-color: #17bb61; /* Orange button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e6f3a; /* Darker orange on hover */
+}
+
+/* Additional Styles */
+#toastContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+} 
+
+

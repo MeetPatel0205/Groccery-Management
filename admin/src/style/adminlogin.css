@@ -1,0 +1,82 @@
+/* AdminLogin */
+
+.hero-section-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-section-login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../src/images/login.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.section {
+  padding: 50px;
+  width: 500px;
+  margin-top: 55px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.toggleBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.section-btn {
+  padding: 8px 50px;
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section-btn.active {
+  padding: 8px 50px;
+  border: none;
+  background-color: #0e6f3a;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.input-form {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.input-form:focus {
+  outline: 2px solid #0e6f3a !important;
+  box-shadow: none;
+}
+

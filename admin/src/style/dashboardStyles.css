@@ -1,0 +1,44 @@
+/* dashboardStyles.css */
+.dashboard-container {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .main-poster{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .poster {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .poster:hover {
+    transform: scale(1.05);
+  }
+  
+  .poster.red {
+    background-color: #ff4c4c; /* Red color */
+  }
+  
+  .poster.green {
+    background-color: #4caf50; /* Green color */
+  }
+  
+  .chart-container {
+    width: 80%;
+    margin: 20px;
+  }

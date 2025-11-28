@@ -1,0 +1,83 @@
+.container {
+    background-color: #fff;
+    color: #333;
+    padding: 50px;
+  }
+  
+  h2, h1 {
+    color: #ff6600;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e55d00;
+    border-color: #e55d00;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .social-icon {
+    color: #ff6600;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #e55d00;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .form-control {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .form-control::placeholder {
+    color: #999;
+  }
+  
+  .btn-primary i {
+    margin-left: 5px;
+  }
